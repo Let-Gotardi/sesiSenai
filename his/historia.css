@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    color: #333;
+}
+
+header {
+    background-color: #dcdde1;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: #778786;
+    padding: 10px 0;
+}
+
+.nav-bar {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-bar li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-bar li a:hover {
+    background-color: #c9e4f6;
+    color: #333;
+}
+
+section {
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid  ;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+section ul,
+section ol {
+    margin-left: 20px;
+    padding-left: 0;
+    list-style-type: disc;
+}
+
+section ul li,
+section ol li {
+    margin-bottom: 8px;
+    list-style-type: none;
+}
+
+section strong {
+    font-weight: bold;
+    color: #555;
+}
+
+section a, b {
+    color:#2c3e50;
+    transition: text-decoration 0.3s ease;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+section hr {
+    border: 1px solid #eee;
+    margin: 20px 0;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #778786;
+    color: white;
+}
+
+details {
+    margin-top: 10px;
+}
+
+details summary {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 8px 12px;
+    margin-bottom: 5px;
+}
+
+details {
+    padding: 10px;
+    color: black;
+}
+
+audio, video {
+    display: block;
+    margin: 15px auto;
+    max-width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #dcdde1;
+    color: #555;
+    border-top: 1px solid #ccc;
+}
